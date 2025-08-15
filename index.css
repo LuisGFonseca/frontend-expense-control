@@ -18,43 +18,15 @@ form {
 
 input, button {
     padding: 10px;
-    margin-bottom: 10px;
     width: -webkit-fill-available;
+    border-radius: 8px;
 }
 
 button {
     cursor:pointer;
-    
+    margin-bottom: 10px;
 }
 
-button:active{
-    opacity: 0.8;
-}
-
-button[disabled] {
-    cursor: not-allowed;
-    opacity: 0.8;
-}
-.clear {
-    background-color: transparent;
-    border: none;
-    color: white;
-}
-
-.solid {
-    background-color: white;
-    border: none;
-    color: rgb(45,211,111);
-}
-
-.outline {
-    background-color : transparent;
-    color: white;
-    border: 1px solid white;
-}
-
-.error {
-    color:white;
-    background:red;
-    display: none;
+.form-field {
+    margin-bottom: 10px;
 }
